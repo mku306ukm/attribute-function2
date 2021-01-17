@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>attribue-function</title>
+    <style>
+        body{
+            font:19px/25px arial;padding: 10px 0 0 20px; }
+            h1{font-size: 40px;margin-bottom:35px;color: rgb(119, 119, 231);}
+            p{
+                font-size: 37px;
+                margin: 100px 0 0 50px;
+            }
+            p:hover::after{
+                content:attr(data-caption);
+                color: rgb(91, 209, 91);
+            }
+    </style>
+</head>
+<body>
+    <h1>attribue-function</h1>
+    <p class="test" data-caption=" -is best website desining courses material">html</p>
+    
+</body>
+</html>
